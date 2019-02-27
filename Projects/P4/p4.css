@@ -1,0 +1,43 @@
+body{
+	background-image: url('background.jpg');
+	margin: 0;
+}
+
+.name{
+	display: flex;
+	justify-content: center;
+	color: #4b95ff;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.style{
+	display: flex;
+	justify-content: center;
+}
+
+.game{
+	display: flex;
+	justify-content: center;
+	border-style: solid;
+	border-color: #01294c;
+	padding: 1em;
+}
+
+.col{
+	padding: 2px;
+}
+
+.col:hover{
+	opacity: 0.5;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.bubble{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	border-radius: 50%;
+}
+

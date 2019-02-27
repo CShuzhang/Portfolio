@@ -1,0 +1,212 @@
+body{
+	background-color: #e6ecf0 !important;	
+}
+
+.col-5{
+	height: 1000px;
+	background-color: #e6ecf0;
+	padding-left: 4em !important;
+	padding-top: 1em !important;
+}
+
+.col-7{
+	height: 1000px;
+	background-color: #e6ecf0;
+	padding-top: 1em !important;
+	padding-right: 2em !important;
+}
+
+.fixed-top{
+	box-shadow: 0px 1px 0px black;
+}
+
+header{
+	background-color: #fff;
+	margin: 0;
+}
+
+header i{
+	color: #1da1f2;
+	font-size: 22px;
+	padding-top: 8px;
+}
+
+header a{
+	color: #1da1f2;
+}
+
+.navbar input{
+	width: 8em !important;
+	height: 29px !important;
+	margin-bottom: -5px;
+}
+
+.navbar button{
+	border: none;
+	background-color: #fff;
+}
+#twitterLogo{
+	margin-left: 4em;
+	margin-right: 3em;
+}
+
+#tweet{
+	margin-top: 10px;
+	background-color: grey;
+	font-size: 12px;
+	cursor: not-allowed;
+}
+
+.fixed-top{
+	background-color: #fff;
+}
+
+.row{
+	display: flex;
+	padding-top: 50px;
+}
+
+.boxProfil{
+	width: 500px;
+	height: 200px;
+	background-color: #fff;
+}
+
+.infos{
+	display: flex;
+}
+
+.infoTweet{
+	padding-right: 10px;
+}
+
+.infoAbonnement{
+	padding-right: 10px;
+}
+
+.infoAbo{
+	padding-right: 10px;
+}
+
+textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    resize: none !important;
+}
+
+.card{
+	margin-top: 1em;
+}
+
+.infos p{
+	color: #1da1f2;
+}
+
+#likeBar i{
+	margin-left: 25px;
+	margin-right: 8px;
+}
+
+#likeBar i:hover{
+	opacity: 0.5;
+	color: red;
+}
+
+.more{
+	display: flex;
+	justify-content: center;
+	padding-top: 2em;
+}
+
+.more p{
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #1da1f2;
+	background-color: #f7f7f7;
+	padding: 5px;
+}
+
+.more p:hover{
+	opacity: 0.5;
+	transition: 0.3s;
+}
+
+.inMore{
+	margin-left: 23em;
+}
+
+.numBar{
+	display: flex;
+}
+
+.iLike{
+	border: none;
+	background-color: #f7f7f7;
+}
+
+.iLike:hover{
+	opacity: 0.5;
+	color: red;
+}
+
+#dropdown{
+	margin-top: 6px;
+}
+
+.my_profil{
+	padding-top: 10em;
+	display: flex;
+	padding-bottom: 3em;
+}
+
+.name_info{
+	font-weight: bold;
+}
+
+.name{
+	display: flex;
+	flex-direction: column;
+	padding-left: 2em;
+}
+
+.edit{
+	padding-left: 3em;
+	color: #1da1f2;
+}
+
+.edit i:hover{
+	opacity: 0.5;
+}
+
+.choose_name{
+	display: flex;
+	justify-content: center;
+}
+
+.choose_lastname{
+	display: flex;
+	justify-content: center;
+}
+
+.choose_pseudo{
+	display: flex;
+	justify-content: center;
+}
+
+.choose_birth{
+	display: flex;
+	justify-content: center;
+}
+
+.choose_email{
+	display: flex;
+	justify-content: center;
+}
+
+.choose_pass{
+	display: flex;
+	justify-content: center;
+}

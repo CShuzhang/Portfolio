@@ -1,0 +1,282 @@
+body{
+	background-color: #e6ecf0 !important;	
+}
+
+.col-5{
+	height: 1000px;
+	background-color: #e6ecf0;
+	padding-top: 1em !important;
+	padding-left: 4em !important;
+}
+
+.col-7{
+	height: 1000px;
+	background-color: #e6ecf0;
+	padding-top: 1em !important;
+	padding-right: 2em !important;
+}
+
+.fixed-top{
+	box-shadow: 0px 1px 0px black;
+}
+
+header{
+	background-color: #fff;
+	margin: 0;
+}
+
+header i{
+	color: #1da1f2;
+	font-size: 22px;
+	padding-top: 8px;
+}
+
+header a{
+	color: #1da1f2;
+}
+
+.navbar input{
+	width: 8em !important;
+	height: 29px !important;
+	margin-bottom: -5px;
+}
+
+.navbar button{
+	border: none;
+	background-color: #fff;
+}
+#twitterLogo{
+	margin-left: 4em;
+	margin-right: 3em;
+}
+
+#tweet{
+	margin-top: 10px;
+	background-color: #1da1f2;
+	font-size: 12px;
+}
+
+.fixed-top{
+	background-color: #fff;
+}
+
+.row{
+	display: flex;
+	padding-top: 50px;
+}
+
+.boxProfil{
+	width: 500px;
+	height: 200px;
+	background-color: #fff;
+}
+
+.infos{
+	display: flex;
+}
+
+.infoTweet{
+	padding-right: 10px;
+}
+
+.infoAbonnement{
+	padding-right: 10px;
+}
+
+.infoAbo{
+	padding-right: 10px;
+}
+
+textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    resize: none !important;
+    height: 8em !important;
+}
+
+.card{
+	margin-top: 1em;
+}
+
+.infos p{
+	color: #1da1f2;
+}
+
+#likeBar i{
+	margin-left: 25px;
+	margin-right: 8px;
+}
+
+#likeBar i:hover{
+	opacity: 0.5;
+	color: red;
+}
+
+.more{
+	display: flex;
+	justify-content: center;
+	padding-top: 2em;
+}
+
+.more p{
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #1da1f2;
+	background-color: #f7f7f7;
+	padding: 5px;
+}
+
+.more p:hover{
+	opacity: 0.5;
+	transition: 0.3s;
+}
+
+.inMore{
+	margin-left: 23em;
+}
+
+.numBar{
+	display: flex;
+}
+
+.iLike{
+	border: none;
+	background-color: #f7f7f7;
+}
+
+.iLike:hover{
+	opacity: 0.5;
+	color: red;
+}
+
+#dropdown{
+	margin-top: 6px;
+}
+
+.suggestion{
+	padding-bottom: 2em;
+}
+
+.all_sugg{
+	padding: 3px;
+}
+
+.all_sugg strong{
+	color: black;
+}
+
+.all_sugg span{
+	font-size: 13px; 
+}
+
+button{
+	border: none !important;
+	background-color: #fff;
+}
+
+.follow a{
+	text-decoration: none !important;
+	font-size: 14px;
+	border: 2px solid #1da1f2;
+	padding: 3px;
+	border-radius: 15px;
+}
+
+.follow a:hover{
+	opacity: 0.5;
+}
+
+.unfollow a{
+	text-decoration: none !important;
+	font-size: 14px;
+	border: 2px solid #1da1f2;
+	padding: 3px;
+	border-radius: 15px;
+}
+
+.unfollow a:hover{
+	opacity: 0.5;
+}
+
+#showAbonnement{
+	cursor: pointer;
+	margin-left: -8px;
+	color: black;
+}
+
+#showAbonnes{
+	cursor: pointer;
+	margin-left: -8px;
+	color: black;
+}
+
+.count{
+	font-size: 13px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.tendance{
+	padding-bottom: 2em;
+}
+
+.classTendance{
+	font-size: 13px;
+	color: #1da1f2;
+}
+
+.classTendance strong{
+	font-size: 18px;
+	padding-right: 2px;
+}
+
+.iRetweet{
+	background-color: #f7f7f7;
+}
+
+.result{
+	position: absolute;
+	top: 3em;
+	left: 17px;
+	background-color: #fff;
+	width: 8em;
+	box-shadow: 0px 2px 6px black;
+	z-index: 100;
+}
+
+.searchResult{
+	padding: 5px;
+}
+
+@media (max-width: 991.98px) {
+	.row{
+		flex-direction: column !important;
+	}
+
+	.col-5{
+		padding-top: 2em !important;
+		padding-rightleft: 0px !important;
+	}
+}
+
+@media (max-width: 767.98px) {
+	#twitterLogo{
+		display: none;
+	}
+
+	.col-5{
+		padding-top: 6em !important;
+		padding-left: 0px !important;
+	}
+
+	#tweet{
+		margin-bottom: 10px; 
+	}
+
+	.card{
+		width: 18em !important;
+	}
+}

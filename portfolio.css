@@ -1,0 +1,343 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+	color: #fff !important;
+	font-family: 'Staatliches', cursive !important;
+	background-color: #111111 !important;
+}
+
+#italic{
+	font-style: italic;
+}
+
+p{
+	font-size: 1.3em;
+}
+
+h2{
+	padding-top: 4em !important;
+}
+
+h4{
+	font-size: 5em !important;
+}
+
+h1{
+	font-size: 1em !important; 
+	margin-top: -0.7em !important;
+	padding-bottom: 0.5em !important;
+}
+
+.language{
+	display: flex;
+	float: right;
+	position: relative;
+	z-index: 10;
+}
+
+.language img{
+	width: 30px;
+	padding: 1px;
+}
+
+.language p{
+	margin: auto;
+}
+
+.my{
+	font-style: italic;
+	position: fixed;
+	z-index: 10;
+	margin-left: 17px;
+	margin-top: 39px;
+}
+
+.structure{
+	z-index: 1;
+	position: fixed;
+	padding-top: 4em;
+	padding-left: 4em;
+}
+
+.list{
+	display: flex;
+	border: 2px solid rgba(139, 139, 139, 0.5);
+}
+
+.list a{
+	color: white; 
+	padding: 1em;
+	font-weight: bold;
+	font-size: 2em;
+	border: 1px solid #fff;
+}
+
+.list a:hover{
+	background-color: #fff;
+	transition: 0.3s;
+}
+
+.cover-home{
+	background-image: url('images/back.jpg');
+	height: 1400px;
+}
+
+.home{
+	padding-top: 10em;	
+	padding-left: 15em;
+	padding-right: 1em;
+}
+
+.home h4{
+	font-size: 5em;
+}
+
+.home p{
+	font-style: italic;
+}
+
+.cover-about{
+	clip-path: inset(65px 16px 486px 17px);
+	background-image: url('images/about.jpg');
+	height: 1350px;
+}
+
+.about{
+	max-width: 1000px;
+	padding-left: 15em;
+	padding-right: 1em;
+}
+
+.about i{
+	padding: 1em;
+}
+
+.about img{
+	width: 35px;
+}
+
+.about h6{
+	padding-top: 9px;
+	padding: 1em;
+}
+
+.flex{
+	display: flex;
+}
+
+.my_language{
+	display: flex;
+	flex-direction: column;
+}
+
+.cover-meetic{
+	clip-path: inset(65px 16px 486px 101px);
+	height: 1350px;
+	background-image: url('images/meetic.png');
+	position: relative;
+	z-index: 2;
+}
+
+.meetic{
+	max-width: 1000px;	
+	padding-left: 15em;
+	padding-right: 1em;
+}
+
+.meetic i{
+	padding: 0.5em;
+}
+
+.meetic a{
+	text-decoration: none !important;
+	padding: 0.1em;
+	font-size: 2em;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.meetic a:hover{
+	color: #fff;
+	opacity: 0.7;
+}
+
+.cover-twitter{
+	clip-path: inset(65px 16px 486px 101px);
+	background-image: url('images/twitter.png');
+	height: 1350px;
+	position: relative;
+	z-index: 2;
+}
+
+.twitter{
+	max-width: 1000px;
+	padding-left: 15em;
+	padding-right: 1em;
+}
+
+.twitter i{
+	padding: 0.5em;
+}
+
+.twitter a{
+	text-decoration: none !important;
+	padding: 0.1em;
+	font-size: 2em;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.twitter a:hover{
+	color: #fff;
+	opacity: 0.7;
+}
+
+.cover-spotify{
+	clip-path: inset(65px 16px 486px 101px);
+	background-image: url('images/spotify.jpg');
+	height: 1350px;
+	position: relative;
+	z-index: 2;
+}
+
+.spotify{
+	max-width: 1000px;
+	padding-left: 15em;
+	padding-right: 1em;
+}
+
+.spotify i{
+	padding: 0.5em;
+}
+
+.spotify a{
+	text-decoration: none !important;
+	padding: 0.1em;
+	font-size: 2em;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.spotify a:hover{
+	color: #fff;
+	opacity: 0.7;
+}
+
+.cover-connect{
+	clip-path: inset(65px 16px 486px 101px);
+	background-image: url('images/connect.jpg');
+	height: 1350px;
+	position: relative;
+	z-index: 2;
+}
+
+.connect{
+	max-width: 1000px;
+	padding-left: 15em;
+	padding-right: 1em;
+}
+
+.connect i{
+	padding: 0.5em;
+}
+
+.connect a{
+	text-decoration: none !important;
+	padding: 0.1em;
+	font-size: 2em;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.connect a:hover{
+	color: #fff;
+	opacity: 0.7;
+}
+
+.contact{
+	max-width: 1000px;
+	padding-left: 15em;
+	padding-right: 1em;
+	padding-bottom: 13em;
+}
+
+.contact a{
+	position: relative;
+	z-index: 2;
+}
+
+@media only screen and (max-width: 700px) {
+
+	h2{
+		font-size: 0 !important;
+	}
+
+	h4{
+		font-size: 3em !important;
+	}
+
+	.list{
+		display: none;
+	}
+
+	.home{
+		padding: 10px;
+		padding-top: 15em;	
+	}
+
+	.about{
+		padding: 32px;
+		padding-top: 8em;	
+	}
+
+	.cover-meetic{
+		clip-path: inset(65px 16px 486px 17px);
+	}
+
+	.meetic{
+		padding: 32px;
+		padding-top: 8em;	
+	}
+
+	.cover-twitter{
+		clip-path: inset(65px 16px 486px 17px);
+	}
+
+	.twitter{
+		padding: 32px;
+		padding-top: 8em;	
+	}
+
+	.cover-spotify{
+		clip-path: inset(65px 16px 486px 17px);
+	}
+
+	.spotify{
+		padding: 32px;
+		padding-top: 8em;	
+	}
+
+	.cover-connect{
+		clip-path: inset(65px 16px 486px 17px);
+	}
+
+	.connect{
+		padding: 32px;
+		padding-top: 8em;	
+	}
+
+	.contact{
+		padding: 32px;	
+		padding-bottom: 10em;
+	}
+}
+
+@media only screen and (max-height: 768px) {
+
+	.list a{
+		font-size: 1.7em;
+	}
+
+}
